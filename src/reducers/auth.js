@@ -37,7 +37,7 @@ const authReducer = (state = DEFAULT_STATE, action) => {
         token: action.payload,
         isAuthenticated: false,
         errorMessage: "",
-        dashboard: ""
+        
       };
 
     default:
